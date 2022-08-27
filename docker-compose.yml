@@ -1,0 +1,11 @@
+services:
+  rstudio:
+    image: tclark89/rstudio-extra:4.2.1
+    ports: 
+      - "8787:8787"
+    environment:
+      PASSWORD: rstudio
+      ROOT: true
+    volumes:
+      - ~/.config/rstudio:/home/rstudio/.config/rstudio
+      - ~/code/R:/home/rstudio/workspace
