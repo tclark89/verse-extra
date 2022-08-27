@@ -7,5 +7,5 @@ services:
       PASSWORD: rstudio
       ROOT: true
     volumes:
-      - /home/tyler/.config/rstudio:/home/rstudio/.config/rstudio
-      - /home/tyler/code/R:/home/rstudio/workspace
+      - ~/.config/rstudio:/home/rstudio/.config/rstudio
+      - ~/code/R:/home/rstudio/workspace
