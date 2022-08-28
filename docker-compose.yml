@@ -1,6 +1,6 @@
 services:
   rstudio:
-    image: tclark89/rstudio-extra:4.2.1
+    image: tclark89/tidyverse-extra:4.2.1
     ports: 
       - "8787:8787"
     environment:
