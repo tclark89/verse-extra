@@ -8,4 +8,5 @@ services:
       ROOT: true
     volumes:
       - /home/tyler/.config/rstudio:/home/rstudio/.config/rstudio
+      - /home/tyler/.local/share/rstudio:/home/rstudio/.local/share/rstudio
       - /home/tyler/code/R:/home/rstudio/workspace
