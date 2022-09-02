@@ -1,0 +1,14 @@
+install.packages(
+		 c(
+		   "gt", 
+		   "DT", 
+		   "kableExtra", 
+		   "flextable", 
+		   "huxtable", 
+		   "reactable", 
+		   "formattable", 
+		   "pixiedust", 
+		   "agricolae", 
+		   "car"
+		 )
+)
