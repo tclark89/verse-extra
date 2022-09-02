@@ -1,4 +1,5 @@
 FROM rocker/tidyverse:4.2.1
-RUN R -q -e 'install.packages(c("gt", "DT", "kableExtra"))' \
+COPY packages.R /home/rstudio/packages.R
+RUN R -q -e "source('/home/rstudio/packages.R')" \
 	&& rm -rf /tmp/* \
 	&& strip /usr/local/lib/R/site-library/*/libs/*.so
