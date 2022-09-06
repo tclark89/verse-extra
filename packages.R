@@ -1,6 +1,6 @@
 install.packages(
 		 c(
-		   "rmarkdown",
+		   "markdown",
 		   "gt", 
 		   "DT", 
 		   "kableExtra", 
