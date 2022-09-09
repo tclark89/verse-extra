@@ -10,6 +10,7 @@ install.packages(
 		   "formattable", 
 		   "pixiedust", 
 		   "agricolae", 
-		   "car"
+		   "car",
+		   "plotly"
 		 )
 )
