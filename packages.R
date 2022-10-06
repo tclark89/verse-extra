@@ -11,8 +11,8 @@ install.packages(
 		   "pixiedust", 
 		   "agricolae", 
 		   "car",
-		   "plotly"
-		   "tinytex"
+		   "plotly",
+		   "tinytex",
 		   "quarto"
 		 )
 )
