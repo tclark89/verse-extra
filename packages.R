@@ -12,9 +12,6 @@ install.packages(
 		   "agricolae", 
 		   "car",
 		   "plotly",
-		   "tinytex",
 		   "quarto"
 		 )
 )
-
-tinytex::install_tinytex(force=TRUE)

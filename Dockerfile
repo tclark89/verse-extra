@@ -1,4 +1,4 @@
-FROM rocker/tidyverse:4.2.1
+FROM rocker/verse
 COPY packages.R /home/rstudio/packages.R
 RUN R -q -e "source('/home/rstudio/packages.R')" \
 	&& rm -rf /tmp/* \
