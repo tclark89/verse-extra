@@ -1,5 +1,5 @@
 # verse-extra
-rocker verse image with a few more packages:
+rocker/verse:latest image with a few more packages:
 
 * gt
 * DT
