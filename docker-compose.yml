@@ -1,8 +1,6 @@
 services:
   rstudio:
     image: tclark89/verse-extra
-    ports: 
-      - "8787:8787"
     environment:
       PASSWORD: rstudio
       ROOT: true
@@ -10,3 +8,9 @@ services:
       - ~/.config/rstudio:/home/rstudio/.config/rstudio
       - ~/.local/share/rstudio:/home/rstudio/.local/share/rstudio
       - ~/code:/home/rstudio/workspace
+    restart: unless-stopped
+
+networks:
+  default:
+    external: true
+    name: fileserver
